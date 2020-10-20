@@ -15,13 +15,14 @@ Number plate detection/recognization using yolo and Flask api.
 ```
 
 
-The JPEGImages:
+ The JPEGImages:
 
     Image Type : jpg(JPG)
     Width x Height : 640 x 480
 
-The Annotations : The VOC format .xml for Object Detection, automatically generate by the label tools. Below is an example of .xml file.
-    <annotation>
+ The Annotations : The VOC format .xml for Object Detection, automatically generate by the label tools. Below is an example of .xml file.
+ ```
+ <annotation>
 <filename>0.jpg</filename>
   <size>
    <width>806</width>
@@ -37,9 +38,9 @@ The Annotations : The VOC format .xml for Object Detection, automatically genera
    </bndbox>
   </object>
 </annotation>
+```
 
-
-my google drive folder format is
+my google drive folder format is:
 ````
 Yolov3
 |
