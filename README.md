@@ -14,7 +14,52 @@ Number plate detection/recognization using yolo and Flask api.
     |____xml_to_text.py #yolo format text file
 ```
 
-    
+
+The JPEGImages:
+
+    Image Type : jpg(JPG)
+    Width x Height : 640 x 480
+
+The Annotations : The VOC format .xml for Object Detection, automatically generate by the label tools. Below is an example of .xml file.
+    <annotation>
+<filename>0.jpg</filename>
+  <size>
+   <width>806</width>
+    <height>466</height>
+ </size>
+  <object>
+  <name>number_plate</name>
+  <bndbox>
+    <xmin>581</xmin>
+    <ymin>273</ymin>
+    <xmax>700</xmax>
+    <ymax>320</ymax>
+   </bndbox>
+  </object>
+</annotation>
+
+
+my google drive folder format is
+````
+Yolov3
+|
+|
+├── Yolo-files
+│            |
+|            |_____.darknet53.conv.74 
+|            |
+|            |_____yolov3.weights 
+|
+|____Backup/
+|
+|____generate_train.py
+|
+|____obj.data
+|
+|____obj.names
+|
+|____obj.zip
+```
 
 # Trained Model
 First extract the images from various sources like github,medium etc.
