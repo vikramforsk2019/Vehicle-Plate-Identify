@@ -14,7 +14,7 @@ almost 300+ images which are possible to trained the model on google colaborater
 https://drive.google.com/drive/u/0/folders/1xj-a9WmIdEcOhgU42ZBs4FpBDHPN4LFT
 
 # Flask Api
-.
+...
 |-- Procfile
 |-- __pycache__
 |   |-- app.cpython-37.pyc
@@ -41,7 +41,7 @@ https://drive.google.com/drive/u/0/folders/1xj-a9WmIdEcOhgU42ZBs4FpBDHPN4LFT
 
 5 directories, 18 files
 
-
+...
 ![Screenshot_2020-10-19 Upload Image](https://user-images.githubusercontent.com/51817568/96476670-28bd1d00-1253-11eb-94fc-46dbf2f26ffb.png)
 ![Screenshot_2020-10-19 Upload Image(1)](https://user-images.githubusercontent.com/51817568/96476775-47231880-1253-11eb-9342-e0e24d6d5b7c.png)
 ![Screenshot_2020-10-19 Upload Image(2)](https://user-images.githubusercontent.com/51817568/96476846-6621aa80-1253-11eb-8df9-e443b41078c5.png)
