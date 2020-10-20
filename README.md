@@ -14,7 +14,7 @@ almost 300+ images which are possible to trained the model on google colaborater
 https://drive.google.com/drive/u/0/folders/1xj-a9WmIdEcOhgU42ZBs4FpBDHPN4LFT
 
 # Flask Api Structure
-'''
+```bash
 |-- Procfile
 |-- __pycache__
 |   |-- app.cpython-37.pyc
@@ -38,7 +38,7 @@ https://drive.google.com/drive/u/0/folders/1xj-a9WmIdEcOhgU42ZBs4FpBDHPN4LFT
 |-- templates
 |   `-- upload.html
 `-- yolo_detection.py
-
+```
 5 directories, 18 files
 
 ...
