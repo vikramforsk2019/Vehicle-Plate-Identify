@@ -1,8 +1,10 @@
 # Vehicle-Plate-Identify
-Number plate detection/recognization using yolo and Flask api 
+Number plate detection/recognization using yolo and Flask api. 
+
 First extract the images from various sources like github,medium etc.
 almost 300+ images which are possible to trained the model on google colaboratery using yolo.
    1. Clone Darknet yolov3.
+   
    2.Data Annotation.
    3. Data preparation as needed by YOLO.
    4. Configuration files preparation.
@@ -10,6 +12,34 @@ almost 300+ images which are possible to trained the model on google colaborater
    6. Result weights.
 # All are describe on google drive 
 https://drive.google.com/drive/u/0/folders/1xj-a9WmIdEcOhgU42ZBs4FpBDHPN4LFT
+
+# Flask Api
+.
+|-- Procfile
+|-- __pycache__
+|   |-- app.cpython-37.pyc
+|   `-- yolo_detection.cpython-37.pyc
+|-- app.py
+|-- classes.names
+|-- darknet-yolov3.cfg
+|-- lapi.weights
+|-- requirements.txt
+|-- static
+|   |-- detect_cut
+|   |   |-- 8.jpg
+|   |   `-- babu.png
+|   |-- index.js
+|   |-- style.css
+|   `-- uploads
+|       |-- 8.jpg
+|       |-- 8_yolo_out_py.jpg
+|       |-- babu.png
+|       `-- babu_yolo_out_py.jpg
+|-- templates
+|   `-- upload.html
+`-- yolo_detection.py
+
+5 directories, 18 files
 
 
 ![Screenshot_2020-10-19 Upload Image](https://user-images.githubusercontent.com/51817568/96476670-28bd1d00-1253-11eb-94fc-46dbf2f26ffb.png)
