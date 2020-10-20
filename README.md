@@ -1,5 +1,20 @@
 # Vehicle-Plate-Identify
 Number plate detection/recognization using yolo and Flask api. 
+# Perform Plate Detection Using Yolov3 and Tensorflow 
+1.Data Preprocessing
+* The structure of the `Plate_dataset`
+```
+├── Plate_data
+│   ├── Annotations
+│   │       └── 0.xml (315 items)
+│   ├── ImageSets  #contains the all images     
+│   └── JPEGImages
+│   |   └── 0.txt (315 items)
+    |
+    |____xml_to_text.py #yolo format text file
+```
+
+    
 
 # Trained Model
 First extract the images from various sources like github,medium etc.
