@@ -12,16 +12,16 @@ Number plate detection/recognization using yolo and Flask api.
 │   |   └── 0.txt (315 items)
     |
     |____xml_to_text.py #yolo format text file
-```
 
 
- The JPEGImages:
+
+* The JPEGImages:
 
     Image Type : jpg(JPG)
     Width x Height : 640 x 480
 
  The Annotations : The VOC format .xml for Object Detection, automatically generate by the label tools. Below is an example of .xml file.
- ```
+
  <annotation>
 <filename>0.jpg</filename>
   <size>
@@ -38,10 +38,10 @@ Number plate detection/recognization using yolo and Flask api.
    </bndbox>
   </object>
 </annotation>
-```
 
-my google drive folder format is:
-````
+
+* my google drive folder format is:
+
 Yolov3
 |
 |
@@ -60,7 +60,7 @@ Yolov3
 |____obj.names
 |
 |____obj.zip
-```
+
 
 # Trained Model
 First extract the images from various sources like github,medium etc.
@@ -71,9 +71,6 @@ almost 300+ images which are possible to trained the model on google colaborater
    4. Configuration files preparation. 
    5. Training. 
    6. Result weights. 
-   
-# All are describe on google drive 
-https://drive.google.com/drive/u/0/folders/1xj-a9WmIdEcOhgU42ZBs4FpBDHPN4LFT
 
 # Flask Api Structure
 ```bash
@@ -102,8 +99,10 @@ https://drive.google.com/drive/u/0/folders/1xj-a9WmIdEcOhgU42ZBs4FpBDHPN4LFT
 `-- yolo_detection.py
 ```
 5 directories, 18 files
+   
+# All are describe on google drive 
+https://drive.google.com/drive/u/0/folders/1xj-a9WmIdEcOhgU42ZBs4FpBDHPN4LFT
 
-...
 ![Screenshot_2020-10-19 Upload Image](https://user-images.githubusercontent.com/51817568/96476670-28bd1d00-1253-11eb-94fc-46dbf2f26ffb.png)
 ![Screenshot_2020-10-19 Upload Image(1)](https://user-images.githubusercontent.com/51817568/96476775-47231880-1253-11eb-9342-e0e24d6d5b7c.png)
 ![Screenshot_2020-10-19 Upload Image(2)](https://user-images.githubusercontent.com/51817568/96476846-6621aa80-1253-11eb-8df9-e443b41078c5.png)
